@@ -1,0 +1,38 @@
+/* RichTextEditor.css */
+.editor-container {
+    width: 100%;
+    margin: 20px auto;
+  }
+  
+  /* Style for the editor */
+  .ql-editor {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-height: 200px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+  /* Focus style */
+  .ql-editor:focus {
+    outline: none;
+    border-color: dodgerblue;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .ql-editor {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .ql-editor {
+      font-size: 12px;
+    }
+  }
+  
