@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ReactQuill from 'react-quill';
-import 'react-quill/dist/quill.snow.css';
-import './style.css'; // Custom CSS for styling
+// import 'react-quill/dist/quill.snow.css';
+import './style.css';
 
 const Editor = () => {
   const [content, setContent] = useState('');

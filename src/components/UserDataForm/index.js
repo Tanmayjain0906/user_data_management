@@ -100,8 +100,9 @@ function UserDataForm() {
                         <label htmlFor="phone">Phone:</label>
                         <input type="text" id="phone" name="phone" value={phone} onChange={handlePhone} />
                     </div>
-
+                    <div className="form-field">
                     <button type="submit" className="submit-btn">Submit</button>
+                    </div>
                 </form>
             </div>
         </div>
